@@ -1,0 +1,19 @@
+{
+  "name": "backend-node",
+  "version": "0.1.0",
+  "description": "https://platzi.com/cursos/nodejs-mongo-websockets/",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "telegram",
+    "node"
+  ],
+  "author": "Esteban Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
