@@ -8,10 +8,11 @@
     //Esto puede ser uno mismo
 
     export const responseMessage = (req, res, message, error, statusCode, details)=>{
-        console.log('[response]'+details);
-        res.status(statusCode || 102).send({
-            error:error || 'Error not found',
-            message: message || 'Message not found',
+        // console.log('[response]'+details);
+        res.status(statusCode).send({
+            error:error,
+            message: message ,
+            body :details,
         })
 
 
